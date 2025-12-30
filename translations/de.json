@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marstek Venus (UDP)",
+        "description": "Gib die IP-Adresse und den Port deines Venus-Geräts an.",
+        "data": {
+          "host": "IP-Adresse / Host",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Keine Verbindung möglich (UDP). Bitte IP/Port prüfen."
+    },
+    "abort": {
+      "already_configured": "Dieses Gerät ist bereits konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Polling / Intervalle",
+        "data": {
+          "loop_interval": "Loop-Intervall (Sekunden)",
+          "es_status_interval": "ES.GetStatus Intervall (Sekunden)",
+          "bat_status_interval": "Bat.GetStatus Intervall (Sekunden)",
+          "es_mode_interval": "ES.GetMode Intervall (Sekunden)",
+          "min_request_gap": "Min. Abstand zwischen Requests (Sekunden)",
+          "udp_timeout": "UDP Timeout (Sekunden)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "domain": "marstek_venus_local",
+  "name": "Marstek Venus Local (UDP)",
+  "version": "0.2.0",
+  "documentation": "https://static-eu.marstekenergy.com/ems/resource/agreement/MarstekDeviceOpenApi.pdf",
+  "requirements": [],
+  "codeowners": ["@MIKLES7"],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
